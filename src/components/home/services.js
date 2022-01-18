@@ -1,20 +1,20 @@
-import React, {useState} from "react";
+import React from "react";
 import waves from '../global/images/waves-x.png';
 import wavesBottom from '../global/images/waves-h.png';
 import blobs from '../global/images/blobs-f.png';
-import { Card, CardBody, CardGroup, CardImg, CardSubtitle, CardText, CardTitle } from "reactstrap";
+import { Card, CardBody, CardGroup, CardSubtitle, CardText, CardTitle } from "reactstrap";
 import Rosa from "react-on-scroll-animation";
 
 export default function Services() {
     return <>  
         <section className="services">
-            <img src={waves} alt="Logo" className="waves-banner"/>; 
+            <img src={waves} alt="Logo" className="waves-banner"/> 
             <Rosa animation="fade-up" duration={300} delay={50}>    
                 <div className="seperator">
                     <img src={blobs} alt="Logo" className="seperator"/>
                 </div>
                 <section className="services-main container-fluid">
-                    <h2> 
+                    <h2>   
                         <span className="color-highlight-sec">Our Services</span>
                     </h2>
                 </section>

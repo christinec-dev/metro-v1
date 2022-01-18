@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React from "react";
 import { Button } from 'reactstrap';
 import blob from '../global/images/blob.png';
 import main from '../global/images/main-c.png';

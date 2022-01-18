@@ -11,7 +11,7 @@ export default function DefaultPage() {
                 <div className="col-lg-6">
                     <img src={astro} alt="" className="astro-img"/>
                 </div>
-                <div className="default-desc col-lg-6">
+                <div className="default-desc col-lg-6 col-md-12">
                     <h1>404</h1>
                     <h2>UH OH! Did you get lost? :(</h2>
                     <p>The page that you are looking for does not exist.

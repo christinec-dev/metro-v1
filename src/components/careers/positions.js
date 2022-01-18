@@ -12,7 +12,7 @@ export default function Positions() {
                         Open <span className="color-highlight-sec">Positions</span>
                     </h2>
                     <div className="row pos-row">
-                        <div className="col-4">
+                        <div className="col-lg-4 col-md-12 col-sm-12">
                             <h3>Marketing Intern</h3>
                             <div className="row">
                                 <div className="col-6">
@@ -30,7 +30,7 @@ export default function Positions() {
                                 </Link>
                             </Button>
                         </div>
-                        <div className="col-4">
+                        <div className="col-lg-4 col-md-12 col-sm-12">
                             <h3>UX Designer</h3>
                             <div className="row">
                                 <div className="col-6">
@@ -46,7 +46,7 @@ export default function Positions() {
                                 </Link>
                             </Button>
                         </div>
-                        <div className="col-4">
+                        <div className="col-lg-4 col-md-12 col-sm-12">
                             <h3>Sales Intern</h3>
                             <div className="row">
                                 <div className="col-6">
@@ -64,7 +64,7 @@ export default function Positions() {
                         </div>
                     </div>
                     <div className="row pos-row">
-                        <div className="col-4">
+                        <div className="col-lg-4 col-md-12 col-sm-12">
                             <h3>HR Manager</h3>
                             <div className="row">
                                 <div className="col-6">
@@ -80,7 +80,7 @@ export default function Positions() {
                                 </Link>
                             </Button>
                         </div>
-                        <div className="col-4">
+                        <div className="col-lg-4 col-md-12 col-sm-12">
                              <h3>Junior JS Developer</h3>
                              <div className="row">
                                 <div className="col-6">
@@ -96,7 +96,7 @@ export default function Positions() {
                                 </Link>
                             </Button>
                         </div>
-                        <div className="col-4">
+                        <div className="col-lg-4 col-md-12 col-sm-12">
                             <h3>Accountant</h3>
                             <div className="row">
                                 <div className="col-6">

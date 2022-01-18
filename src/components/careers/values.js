@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardBody, CardTitle, CardSubtitle, CardGroup , CardText, ListGroup, ListGroupItem, ListGroupItemHeading, ListGroupItemText } from "reactstrap";
+import { Card, CardBody, CardTitle, CardSubtitle, CardGroup , CardText } from "reactstrap";
 import Rosa from "react-on-scroll-animation";
 
 export default function Values() {

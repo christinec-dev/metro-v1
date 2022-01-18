@@ -17,15 +17,15 @@ export default function Team() {
                     <div className="flip-card">
                         <div className="flip-card-inner">
                             <div className="flip-card-front">
-                                <img src={team_1} alt="" className="team-img"/>
+                                <img src={team_1} alt="/" className="team-img"/>
                             </div>
                             <div className="flip-card-back">
                                 <h2 className="socials-title">Jack Doe</h2>
                                 <h4 className="socials-label">CTO</h4>
                                 <div className="socials">
-                                    <a href=""><i class="fab fa-twitter-square"></i></a>
-                                    <a href=""><i class="fab fa-linkedin"></i></a>
-                                    <a href=""><i class="fab fa-github-square"></i></a>
+                                    <a href="/"><i class="fab fa-twitter-square"></i></a>
+                                    <a href="/"><i class="fab fa-linkedin"></i></a>
+                                    <a href="/"><i class="fab fa-github-square"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -35,15 +35,15 @@ export default function Team() {
                         <div className="flip-card">
                             <div className="flip-card-inner">
                                 <div className="flip-card-front">
-                                    <img src={team_2} alt="" className="team-img"/>
+                                    <img src={team_2} alt="/" className="team-img"/>
                                 </div>
                                 <div className="flip-card-back">
                                     <h2 className="socials-title">Max Anton</h2>
                                     <h4 className="socials-label">Lead Developer</h4>
                                 <div className="socials">
-                                    <a href=""><i class="fab fa-twitter-square"></i></a>
-                                    <a href=""><i class="fab fa-linkedin"></i></a>
-                                    <a href=""><i class="fab fa-github-square"></i></a>
+                                    <a href="/"><i class="fab fa-twitter-square"></i></a>
+                                    <a href="/"><i class="fab fa-linkedin"></i></a>
+                                    <a href="/"><i class="fab fa-github-square"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -53,15 +53,15 @@ export default function Team() {
                         <div className="flip-card">
                             <div className="flip-card-inner">
                                 <div className="flip-card-front">
-                                    <img src={team_3} alt="" className="team-img"/>
+                                    <img src={team_3} alt="/" className="team-img"/>
                                 </div>
                                 <div className="flip-card-back">
                                     <h2 className="socials-title">Jacky Neil</h2>
                                     <h4 className="socials-label">Lead Designer</h4>
                                 <div className="socials">
-                                    <a href=""><i class="fab fa-twitter-square"></i></a>
-                                    <a href=""><i class="fab fa-linkedin"></i></a>
-                                    <a href=""><i class="fab fa-github-square"></i></a>
+                                    <a href="/"><i class="fab fa-twitter-square"></i></a>
+                                    <a href="/"><i class="fab fa-linkedin"></i></a>
+                                    <a href="/"><i class="fab fa-github-square"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -71,15 +71,15 @@ export default function Team() {
                         <div className="flip-card">
                             <div className="flip-card-inner">
                                 <div className="flip-card-front">
-                                    <img src={team_4} alt="" className="team-img"/>
+                                    <img src={team_4} alt="/" className="team-img"/>
                                 </div>
                                 <div className="flip-card-back">
                                     <h2 className="socials-title">Linda Mae</h2>
                                     <h4 className="socials-label">Consultant</h4>
                                 <div className="socials">
-                                    <a href=""><i class="fab fa-twitter-square"></i></a>
-                                    <a href=""><i class="fab fa-linkedin"></i></a>
-                                    <a href=""><i class="fab fa-github-square"></i></a>
+                                    <a href="/"><i class="fab fa-twitter-square"></i></a>
+                                    <a href="/"><i class="fab fa-linkedin"></i></a>
+                                    <a href="/"><i class="fab fa-github-square"></i></a>
                                 </div>
                             </div>
                         </div>

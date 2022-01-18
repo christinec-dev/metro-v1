@@ -64,9 +64,9 @@ export default function Footer() {
                 <li>
                   <div className='row footer-row text-center'>
                       <div className='col-12 '>
-                          <a href=""><i class="fab fa-twitter-square"></i></a>
-                          <a href=""><i class="fab fa-linkedin"></i></a>
-                          <a href=""><i class="fab fa-github-square"></i></a>
+                          <a href="/"><i class="fab fa-twitter-square"></i></a>
+                          <a href="/"><i class="fab fa-linkedin"></i></a>
+                          <a href="/"><i class="fab fa-github-square"></i></a>
                       </div>
                   </div>
                 </li>

@@ -44,6 +44,15 @@
     .seperator {
         display: none;
     }
+    
+    .services {
+      width: 100vw;
+      margin-left: -1em;
+    }
+
+    .waves-bottom {
+      margin-left: -1em;
+    }
 
     .services-main {
         margin-top: -40%;
@@ -80,7 +89,7 @@
   }
 
   .subscribe-card h3{
-    font-size: 1.5em !important;
+    font-size: 1.3em !important;
   }
 
   Label {
@@ -99,7 +108,7 @@
 
   /* -------------------team section --------------------*/
     .flip-card {
-        margin-left: 0;
+        margin: 0 auto
     }
 
 /* ------------------- banner section --------------------*/
@@ -108,7 +117,8 @@
     }
 
     .banner-card {
-        width: 100% !important;padding: 1em;
+        width: 100% !important;
+        padding: 1em;
         padding-left: 0 !important;
         margin: 0 auto !important;
     }
@@ -124,7 +134,10 @@
     .banner-bottom {
         padding: .5em;
         background-size: cover;
+        width: 100vw;
+        margin-left: -1em;
     }
+
     .banner-img {
         display: none;
     }
@@ -216,26 +229,85 @@
     display: none !important;
   }
 
-  .vision h2 {
-    font-size: 2.5em !important;margin: 0 !important;
-}
+    .vision h2 {
+      font-size: 2.5em !important;margin: 0 !important;
+  }
 
-.timeline {
-    margin-left: 0 !important;
-}
+    .timeline {
+        margin-left: 0 !important;
+    }
 
-.about h2 {
-    font-size: 2.5em !important
-}
+    .about h2 {
+        font-size: 2.5em !important
+    }
+
+       /* -------------- career  section ------------------ */
+       .brands {
+        margin-top: -30%
+      }
+  
+      .banner-careers .card-title {
+        font-size: 1.5em !important;
+      }
+  
+      
+      /* -------------- Contact form section ------------------ */
+  
+  
+      .contact-tabs {
+        margin: 0 auto;
+        margin-bottom: 2em;
+      }
+  
+      .contact-form {
+        border: 1px solid var(--main-light);
+        border-radius: 5px;
+        width: 90%;
+        padding: 2em;
+        margin: 0 auto;
+      }
+  
+      .contact-tabs  {
+        height: auto;
+      }
+  
+      /* -------------- 404 section ------------------ */
+      .default-page {
+        margin-left: 5em;
+      }
+  
+      .default-desc {
+        text-align: center !important;
+      }
+  
+      .default-page h2 {
+        text-align: center !important;
+      }
+      .default-page h1 {
+        text-align: center !important;
+      }
+  
+      .default-page p {
+        text-align: center !important;margin: 0 auto !important;
+      }
+  
+      .astro-img {
+        display: none;
+      }
+  
+      .card-title {
+        font-size: 1.5em !important;
+      }
 
   
 }
 
 
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media screen and (min-width: 600px) and (max-width: 900px) {
   /* -------------- header section ------------------ */
-  .main-right {
+    .main-right {
     display: none;
     }
 
@@ -280,6 +352,24 @@
         display: flex !important;
         flex-wrap: wrap !important;
         flex: 100% !important;
+    }
+
+    .waves-bottom {
+      width: 100vw;
+      margin-left: -1em;
+    }
+  
+    .services-main {
+      width: 100vw !important;
+    }
+  
+    .services {
+      margin-left: -1em;
+      width: 100vw !important;
+    }
+
+    .waves-banner {
+        width: 100vw;
     }
 
     /* -------------- testimonies section ------------------ */
@@ -388,25 +478,262 @@
     .footer-p {
         display: none;
     }
+
+     /* -------------- career  section ------------------ */
+    .brands {
+      margin-top: -30%
+    }
+
+    .banner-careers .card-title {
+      font-size: 1.5em !important;
+    }
+    
+    /* -------------- Contact form section ------------------ */
+    .contact-tabs {
+      margin-left: 2em;
+      margin-bottom: 2em;
+    }
+
+    .contact-form {
+      border: 1px solid var(--main-light);
+      border-radius: 5px;
+      width: 90%;
+      padding: 2em;
+      margin-left: 2em;
+    }
+
+    .contact-tabs  {
+      height: auto;
+    }
+
+    /* -------------- 404 section ------------------ */
+    .default-page {
+      margin-left: 5em;
+    }
+
+    .default-desc {
+      text-align: center !important;
+    }
+
+    .default-page h2 {
+      text-align: center !important;
+    }
+    .default-page h1 {
+      text-align: center !important;
+    }
+
+    .default-page p {
+      text-align: center !important;margin: 0 auto !important;
+    }
+
+    .astro-img {
+      display: none;
+    }
+
+    .card-title {
+      font-size: .8em !important;
+    }
 }
 
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+/* Large devices (large tablets and desktops, 1500px and up) */
+@media only screen and (min-width:1000px) and (max-width: 1024px) {
+  /* -------------- header section ------------------ */
+  .main-button {
+      margin-bottom: 10em !important;
+  }
+
+  .main-img {
+    position: relative;
+    top: -10%;
+    left: .5%;
+    max-width: 80%;
+    min-height: max-content !important;
+    z-index: -3;
+  }  
+    
+  .main-blob {
+    top: 15%;
+    left: 20%;
+    max-width: 80%;
+  }
+
+
+  /* -------------------subscribe section --------------------*/
+  .waves-bottom {
+    width: 100vw; margin-left: -1em
+  }
+
+  .services {
+    width: 100vw;
+    margin-left: -1em !important;
+  }
+
+  .waves-banner {
+    width: 100vw;
+    margin-left: -9px;
+  }
+
+  .subscribe-card {
+      height: auto !important;
+  }
+  
+ .subscribe-card .main-button{
+    margin-bottom: 0 !important;
+}  
+
+  .brand-carousel {
+    margin-top: -5em;
+  }
+  /* ------------------- banner section --------------------*/
+  
+  .banner-card {
+      width: 100% !important;
+  }
+  
+  .banner-bottom, .banner-bottom .main-button{
+      background-size: cover; 
+      margin-bottom: 0 !important;
+  }  
+  
+  /* -------------- banner about  section ------------------ */
+ 
+  .main-blob-about {
+     width: 90% !important;
+     top: 20%; 
+     left: -20% !important; 
+   }    
+ 
+  .main-img-2 {
+     position: relative;
+     top: -3%;
+     left: -40%;
+     max-width: 170%;
+     min-height: max-content !important;
+     z-index: -3;
+   }
+ 
+   .banner-about {
+     width: 95%;
+     height: auto;
+     padding: .1em;
+     margin-top: -9% !important;
+     border-radius: 0 !important;
+     text-align: center;
+     margin-bottom: 5em;margin: 0 auto ;
+     background-color: var(--main-grey) !important;
+     border: 4px dashed var(--main-blue) !important;
+   }
+
+ 
+   .banner-about h2 {
+     font-size: 2.5em !important;
+     margin-bottom: .7em;
+   }
+   
+   .banner-about .row {
+     padding: 0em;margin-bottom: 2em;
+   }
+   
+   .banner-about p {
+     font-size: 1em !important;
+   }
+ 
+ /* -------------- career  section ------------------ */
+ .main-img-3 {
+     position: relative;
+     top: -4.3%;
+     left: -10%;
+     max-width: 100%;
+     min-height: max-content !important;
+     z-index: -3;
+   }
+
+   .brands {
+     margin-top: -20%
+   }
+ 
+ /* -------------- 404  section ------------------ */
+ .default-page {
+     margin: 0 auto;
+     margin-top: -4em;
+   }
+   
+   .default-page h1 {
+     font-size: 9em !important;
+     font-weight: 900 !important;
+   }
+   
+   .default-desc {
+    
+     height: fit-content;
+     padding: 2em;
+     width: max-content;
+     margin-left: -8%;
+     border-radius: 5px;
+   }
+   
+   .default-page h2 {
+     font-size: 3em !important; 
+     font-weight: 800 !important;
+   }
+   
+   .default-page p {
+     font-size: 1.5em !important;
+     font-weight: 600;
+   }
+  
+   .astro-img {
+       position: relative;
+       margin-top: 8em;
+       margin-left: -10%;
+       z-index: -3;width: 120%;
+   }
+ }
+
+
+/* Extra large devices (large laptops and desktops, 1500px and up) */
+@media only screen and (min-width: 1500px) {
  /* -------------- header section ------------------ */
 
-    .main-left h1 {
-        font-size: 2.6em !important;
-        display: relative !important;
-        z-index: 99 !important;
-    }
+.main-left {
+    margin-left: 5em;
+}
+
+.main-left h1 {
+    font-size: 5em !important;
+    display: relative !important;
+    z-index: 99 !important;margin-top: 1em;
+}
+
+.main-left p {
+    font-size: 1em !important;
+    z-index: 99 !important;
+}
+
+.main-img {
+    position: relative;
+    top: -10%;
+    left: -.5%;
+    max-width: 60%;
+    min-height: max-content !important;
+    z-index: -3;
+  }
+
+  .main-blob {
+    width: 70% !important;
+    top: 2%;
+  }
+
+  .main-button {
+      margin-bottom: 3em !important;
+  }
 /* -------------------subscribe section --------------------*/
 
     .subscribe-card {
     height: auto !important;
   }
  /* ------------------- banner section --------------------*/
-
 
 .banner-card {
     width: 100% !important;
@@ -417,7 +744,13 @@
 }  
 
 /* -------------- banner about  section ------------------ */
-    .main-img-2 {
+
+.main-blob-about {
+    width: 80% !important;
+    top: 2%; margin-left: -7% !important; 
+  }    
+
+.main-img-2 {
     position: relative;
     top: -4.3%;
     left: -20%;
@@ -451,4 +784,47 @@
     font-size: 1em !important;
   }
 
+/* -------------- career  section ------------------ */
+.main-img-3 {
+    position: relative;
+    top: -4.3%;
+    left: -10%;
+    max-width: 80%;
+    min-height: max-content !important;
+    z-index: -3;
+  }
+
+/* -------------- 404  section ------------------ */
+.default-page {
+    margin: 0 auto;
+  }
+  
+  .default-page h1 {
+    font-size: 9em !important;
+    font-weight: 900 !important;
+  }
+  
+  .default-desc {
+    margin-top: 12em !important;
+    height: fit-content;
+    padding: 2em;
+    width: max-content;
+    margin-left: -8%;
+    border-radius: 5px;
+  }
+  
+  .default-page h2 {
+    font-size: 3em !important; 
+    font-weight: 800 !important;
+  }
+  
+  .default-page p {
+    font-size: 1.5em !important;
+    font-weight: 600;
+  }
+ 
+  .astro-img {
+      position: relative;
+      z-index: -3;
+  }
 }

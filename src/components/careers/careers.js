@@ -4,6 +4,7 @@ import Footer from "../global/footer";
 import Header from "./header";
 import Positions from "./positions";
 import Values from "./values";
+import ScrollToTop from "../global/totop";
 
 export default function Careers() {
     return <>
@@ -11,6 +12,7 @@ export default function Careers() {
         <Header/>
         <Values/>
         <Positions/>
+        <ScrollToTop/>
         <Footer/>
     </>
 }

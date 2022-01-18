@@ -5,10 +5,12 @@ import cardImg from "../global/images/group1.jpg"
 import Application from "./application";
 import Footer from "../global/footer";
 import { Link } from "react-router-dom";
+import ScrollToTop from "../global/totop";
 
 export default function Position() {
     return <>
       <Navigation/>
+      <ScrollToTop/>
             <section className="position-m">
                 <div className="container">
                     <h2> 
