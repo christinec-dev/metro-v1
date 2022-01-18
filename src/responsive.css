@@ -1,0 +1,454 @@
+/* --------- main colors/fonts used for site ------------ */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+  --main-bg-color: #131313;
+  --main-footer-color:rgb(31, 30, 30)3;
+  --main-white-alt: rgb(221, 221, 221);
+  --main-border: rgba(223, 221, 221, 0.63);
+  --main-light: rgba(196, 192, 192, 0.863);
+  --main-grey: rgb(46, 45, 45);
+  --sec-bg-color: rgb(83,127,242);
+  --sec-light: rgba(91, 113, 160, 0.863);
+  --light-blue: #c6d5ff;
+  --main-blue: #2860e1;
+  --sec-blue: #15398f;
+  --main-white: #fff;
+  --body-font: 'Roboto', sans-serif;
+  --alt-font: 'Raleway', sans-serif;
+}
+
+/* -------------- responsive styling ------------------ */
+/* Extra small devices (phones, 768px and down) */
+
+@media screen and (min-width: 320px) and (max-width: 576px) {
+    /* -------------- header section ------------------ */
+    .main-right {
+        display: none;
+    }
+
+    .main {
+        position: relative !important;
+        z-index: 99 !important; 
+        margin-top:-10% !important;
+        margin-bottom: 25% !important;
+    }
+
+    .main-left h1 {
+        font-size: 2.6em !important;
+        display: relative !important;
+        z-index: 99 !important;
+    }
+
+    /* -------------- services section ------------------ */
+    .seperator {
+        display: none;
+    }
+
+    .services-main {
+        margin-top: -40%;
+    }
+
+    .flex-container {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        flex: 100% !important;
+    }
+
+/* -------------- testimonies section ------------------ */
+    .testimonies {
+        display: none !important;
+    }
+
+    .brand-carousel {
+        width: 100%;
+    }
+    .brand-carousel .logos {
+        width: 50em !important;
+    }
+
+/* -------------------subscribe section --------------------*/
+
+.subscribe-card {
+    padding: 2em;
+    width: 100%;
+    margin: 0 auto;
+    height: auto !important;
+    margin-bottom: 2em;
+    outline: 2px dashed var(--main-light);
+    outline-offset: -10px;
+  }
+
+  .subscribe-card h3{
+    font-size: 1.5em !important;
+  }
+
+  Label {
+   margin-top: 0;
+  }
+  
+  Input {
+    margin-bottom: 0 !important;
+
+    width: 100% !important;margin-left: 0 !important;
+  }
+
+  .subscribe .main-button {
+      float: left;
+  }
+
+  /* -------------------team section --------------------*/
+    .flip-card {
+        margin-left: 0;
+    }
+
+/* ------------------- banner section --------------------*/
+    .banner-title {
+        font-size: .5em !important;
+    }
+
+    .banner-card {
+        width: 100% !important;padding: 1em;
+        padding-left: 0 !important;
+        margin: 0 auto !important;
+    }
+
+    .banner-bottom h2{
+        text-align: center;
+    }
+
+    .banner-bottom .main-button {
+        width: 100%;
+    }
+
+    .banner-bottom {
+        padding: .5em;
+        background-size: cover;
+    }
+    .banner-img {
+        display: none;
+    }
+
+    .collapsed {
+        margin-left: 2em;
+    }
+
+    .collapsed .nav-link-button{
+    display: none;
+    }
+
+/* ------------------- nav and footer section --------------------*/
+    .nav-toggle {
+        background-color: var(--main-blue) !important;
+    }
+
+    .footer-p {
+        display: none;
+    }
+
+    
+/* -------------- Vision + Banner section ------------------ */
+.vision h2 {
+    text-align: center;margin-bottom: 1.5em;
+  }
+  
+  .vision {
+    margin-top: 4em !important;
+    margin-bottom: -4em !important
+  }
+  
+   strong {
+       font-weight: 600;
+  }
+  
+   #timeline-content {
+       margin-top: 50px;
+       text-align: center;
+     margin-left: 2em;
+  }
+  
+   .timeline {
+       border-left: 4px solid var(--main-blue);
+       border-bottom-right-radius: 4px;
+       border-top-right-radius: 4px;
+       background: var(--main-timeline);border-radius: 5px;
+       color: var(--main-timeline-color);
+       margin: 50px auto;
+       letter-spacing: 0.5px;
+       position: relative;
+       line-height: 1.4em;
+       font-size: 1.03em;
+       padding: 50px;
+       list-style: none;
+       text-align: left;
+       font-weight: 100;
+       max-width: 100%;
+  }
+ 
+  
+  /* -------------- banner section ------------------ */
+  .banner-about {
+    width: 95%;
+    height: auto;
+    padding: .1em;
+    margin-top: -20% !important;
+    border-radius: 0 !important;
+    text-align: center;
+    margin-bottom: 5em;margin: 0 auto ;
+    background-color: var(--main-grey) !important;
+    border: 4px dashed var(--main-blue) !important;
+  }
+
+  .banner-about h2 {
+    font-size: 2.5em !important;
+    margin-bottom: .7em;
+  }
+  
+  .banner-about .row {
+    padding: 0em;margin-bottom: 2em;
+  }
+  
+  .banner-about p {
+    font-size: 1em !important;
+  }
+  
+  .list {
+    display: none !important;
+  }
+
+  .vision h2 {
+    font-size: 2.5em !important;margin: 0 !important;
+}
+
+.timeline {
+    margin-left: 0 !important;
+}
+
+.about h2 {
+    font-size: 2.5em !important
+}
+
+  
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  /* -------------- header section ------------------ */
+  .main-right {
+    display: none;
+    }
+
+    .main {
+        position: relative !important;
+        z-index: 99 !important; 
+        margin-bottom: 25% !important;
+    }
+
+    .main-left h1 {
+        font-size: 2.5em !important;
+        display: relative !important;
+        z-index: 99 !important;
+    }
+
+    .main-left p {
+        font-size: 1.2em !important;
+        display: relative !important;
+        z-index: 99 !important;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    /* -------------- services section ------------------ */
+    .seperator {
+        display: none;
+    }
+
+    .services h2 {
+    margin-top: -10% !important;
+    }
+
+    .services h3 {
+        font-size: 1.4em !important;
+    }
+
+    .services p {
+        text-align: justify;hyphens: auto;
+    }
+
+    .flex-container {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        flex: 100% !important;
+    }
+
+    /* -------------- testimonies section ------------------ */
+    .testimonies .testimonies-right h2{
+        margin: 0 auto;  
+        text-align: center !important;   margin-left: -1em;
+    }
+
+    .testimonies .testimonies-right  p {
+       margin: 0 auto;  
+       text-align: center !important;
+       margin-left: 30px !important; 
+       margin-bottom: 2em;width: 100%;
+    }
+
+    .testimonies h4 {
+        font-size: 1.3em !important;  
+    }
+
+    .testimonies .main-button {
+        display: none;
+    }
+
+    .MainCarousel {
+    width: 90%;
+    margin: 0 auto !important;
+    padding-top: 8%;
+    padding-bottom: 12.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: auto
+    }
+    
+    .carousel .slide .testimonial_img {
+        margin-bottom: -2em !important;
+    }
+
+    .carousal-body {
+        margin-left: -10% !important;
+    }   
+    
+    .brand-carousel {
+        width: 100%;
+    }
+
+    .brand-carousel .logos {
+        width: 50em !important;
+    }
+/* -------------------subscribe section --------------------*/
+
+.subscribe-card {
+    padding: 2em;
+    width: 100%;
+    margin: 0 auto;
+    height: auto !important;
+    margin-bottom: 2em;
+    outline: 2px dashed var(--main-light);
+    outline-offset: -10px;
+  }
+
+  .subscribe-card h3{
+    font-size: 1.5em !important;
+  }
+
+  Label {
+   margin-top: 0;
+  }
+  
+  Input {
+    margin-bottom: 1em !important;
+
+    width: 100% !important;margin-left: 0 !important;
+  }
+
+  .subscribe .main-button {
+      float: left;
+  }
+
+/* ------------------- banner section --------------------*/
+    .banner-card {
+      width: 100% !important;padding: 1em;
+      padding-left: 0 !important;
+      margin: 0 auto !important;text-align: center !important;
+    }
+
+    .banner-card h2 {
+        text-align: center !important;margin: 0 auto;
+    }
+
+    .banner-bottom {
+        background-size: cover;
+    }  
+    
+/* ------------------- nav and footer section --------------------*/
+    .collapsed {
+        margin-left: 2em;
+    }
+  
+    .collapsed .nav-link-button{
+      display: none;
+    }
+    .nav-toggle {
+        background-color: var(--main-blue) !important;
+    }
+    
+    .footer-p {
+        display: none;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+ /* -------------- header section ------------------ */
+
+    .main-left h1 {
+        font-size: 2.6em !important;
+        display: relative !important;
+        z-index: 99 !important;
+    }
+/* -------------------subscribe section --------------------*/
+
+    .subscribe-card {
+    height: auto !important;
+  }
+ /* ------------------- banner section --------------------*/
+
+
+.banner-card {
+    width: 100% !important;
+}
+
+.banner-bottom {
+    background-size: cover;
+}  
+
+/* -------------- banner about  section ------------------ */
+    .main-img-2 {
+    position: relative;
+    top: -4.3%;
+    left: -20%;
+    max-width: 130%;
+    min-height: max-content !important;
+    z-index: -3;
+  }
+
+  .banner-about {
+    width: 95%;
+    height: auto;
+    padding: .1em;
+    margin-top: -9% !important;
+    border-radius: 0 !important;
+    text-align: center;
+    margin-bottom: 5em;margin: 0 auto ;
+    background-color: var(--main-grey) !important;
+    border: 4px dashed var(--main-blue) !important;
+  }
+
+  .banner-about h2 {
+    font-size: 2.5em !important;
+    margin-bottom: .7em;
+  }
+  
+  .banner-about .row {
+    padding: 0em;margin-bottom: 2em;
+  }
+  
+  .banner-about p {
+    font-size: 1em !important;
+  }
+
+}
