@@ -1,3 +1,18 @@
+# Metro
+
+This is a front-end website made in React during my summer break from college. 
+
+This website contains resusable components accross the following pages:
+- Home
+- About
+- Contact
+- Careers
+- Application
+- 404
+
+## Main UI
+![screencapture-metro-v1-herokuapp-2022-02-07-14_26_37](https://user-images.githubusercontent.com/87696858/152787940-39bdbc17-1878-4e73-8489-25144b4a130a.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
